@@ -407,7 +407,7 @@ section h2 {
 .visitor-map-embed {
   height: 200px;
   width: 200px;
-  overflow: visible;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -418,7 +418,7 @@ section h2 {
 .visitor-map-embed canvas,
 .visitor-map-embed img,
 .visitor-map-embed > * {
-  /* transform: scale(0.75); */
+  transform: scale(0.5);
   transform-origin: center center;
 }
 
