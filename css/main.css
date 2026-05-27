@@ -392,6 +392,36 @@ section h2 {
   font-size: 1.8em;
 }
 
+/* Visitor Map (MapMyVisitors) */
+.visitor-map-title {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+}
+
+.visitor-map-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Scale the embedded globe to 25% but keep layout compact */
+.visitor-map-embed {
+  height: 200px;
+  width: 200px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitor-map-embed #mmvst_globe,
+.visitor-map-embed iframe,
+.visitor-map-embed canvas,
+.visitor-map-embed img,
+.visitor-map-embed > * {
+  /* transform: scale(0.75); */
+  transform-origin: center center;
+}
+
 /* News Section */
 .news {
   margin-bottom: 20px;
