@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haoneng Lin</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/publications.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/navigation.js"></script>
+</head>
+<body class="index-page">
+
+    <div class="page-content">
+        <div class="wrapper">
+            <div class="profile">
+                <img class="profile-pic" src="images/site/me.jpg" alt="Haoneng Lin">
+                <div class="profile-info">
+                    <h1>Haoneng Lin (林昊能)</h1>
+                    <h2 class="title-position">
+                        PhD Student
+                    </h2>
+                    <p class="affiliation">School of Nursing, The Hong Kong Polytechnic University</p>
+                    <p>Research Areas: Vision-Language Models, Medical Image Analysis</p>
+                    <div class="contact-info">
+                        <a href="mailto:lhn987745283@gmail.com" target="_blank" class="contact-gmail"><i class="fab fa-google"></i> Gmail</a>
+                        <a href="mailto:haoneng.lin@connect.polyu.hk" target="_blank" class="contact-university"><i class="fas fa-university"></i> PolyU Email</a>
+                        <a href="https://github.com/haonenglin" target="_blank" class="contact-github"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://scholar.google.com.hk/citations?user=DPz_c_8AAAAJ&hl=zh-CN" target="_blank" class="contact-scholar"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="about">
+                <h2>About Me</h2>
+                <p>I am currently a PhD student at <a href="https://www.polyu.edu.hk/" target="_blank">The Hong Kong Polytechnic University</a> (supervisor: <a href="https://research.polyu.edu.hk/en/persons/jing-qin/" target="_blank">Prof. Harry Qin</a>). My research focuses on vision-language models in the medical domain, particularly for tasks such as medical report generation, image segmentation, and other clinically relevant applications.</p>
+                <p>Prior to joining PolyU, I obtained my Bachelor's degree in Engineering from the <a href="https://bme.szu.edu.cn/" target="_blank">School of Biomedical Engineering, Shenzhen University</a>, in 2021.</p>
+            </section>
+            
+            <section class="news">
+                <h2>News</h2>
+                <div class="news-container">
+                    <div class="news-scroll" id="news-scroll">
+                        <div class="news-item">
+                            <span class="date">...</span>
+                            <span class="content">Loading news...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="selected-publications">
+                <div class="publications-header">
+                    <div class="header-left">
+                        <h2>Selected Publications 
+                            <span class="author-notation-inline">
+                                <span class="notation-item"><sup>*</sup> Co-first author, 
+                                <sup>✉</sup> Corresponding author</span>
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="publications-links">
+                        <a href="publications.html" class="publications-link">All Publications</a>
+                        <span class="link-separator">|</span>
+                        <a href="https://scholar.google.com.hk/citations?user=DPz_c_8AAAAJ&hl=zh-CN" target="_blank" class="google-scholar-link"><font color="#4285F4">G</font><font color="#DB4437">o</font><font color="#F4B400">o</font><font color="#4285F4">g</font><font color="#0F9D58">l</font><font color="#DB4437">e</font> Scholar</a>
+                    </div>
+                </div>
+
+                <!-- Preprint Publications Section -->
+                <div class="publication-section">
+                    <h3 class="section-title">
+                        <i class="fas fa-file-alt"></i>
+                        Preprints
+                    </h3>
+                    <div class="publications-container" id="preprint-publications">
+                        <!-- Preprints will be loaded from BIB file via JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Conference Publications Section -->
+                <div class="publication-section">
+                    <h3 class="section-title">
+                        <i class="fas fa-users"></i>
+                        Conference Papers
+                    </h3>
+                    <div class="publications-container" id="conference-publications">
+                        <!-- Conference publications will be loaded from BIB file via JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Journal Publications Section -->
+                <div class="publication-section">
+                    <h3 class="section-title">
+                        <i class="fas fa-book"></i>
+                        Journal Papers
+                    </h3>
+                    <div class="publications-container" id="journal-publications">
+                        <!-- Journal publications will be loaded from BIB file via JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="professional-activities">
+                <h2>Professional Activities</h2>
+                <ul>
+                    <li><b>Conference Reviewer</b>:
+                    <ul>
+                        <li>Medical Image Computing and Computer Assisted Intervention (MICCAI) 2026</li>
+                    </ul>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+    
+    <footer class="site-footer" id="site-footer">
+        <!-- Footer content will be generated by footer.js -->
+    </footer>
+
+    <script src="js/bibtex-parser.js"></script>
+    <script src="js/publications.js"></script>
+    <script src="js/news.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

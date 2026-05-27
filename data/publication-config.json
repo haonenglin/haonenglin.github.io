@@ -1,0 +1,27 @@
+{
+  "publications": {
+    "wong2026immersive": {
+      "pdf": "https://doi.org/10.1016/j.chb.2026.109049"
+    },
+    "lin2025taming": {
+      "select": true,
+      "image": "images/publications/lin2025taming.png",
+      "pdf": "https://arxiv.org/abs/2506.18378"
+    },
+    "lin2025volumetric": {
+      "select": true,
+      "image": "images/publications/lin2025volumetric.png",
+      "pdf": "https://doi.org/10.1016/j.bbe.2024.11.001"
+    },
+    "lin2024dual": {
+      "select": true,
+      "image": "images/publications/lin2024dual.png",
+      "pdf": "https://doi.org/10.1016/j.cmpb.2024.108165"
+    },
+    "lin2021variance": {
+      "select": true,
+      "image": "images/publications/lin2021variance.png",
+      "pdf": "https://doi.org/10.1002/mp.15322"
+    }
+  }
+}
