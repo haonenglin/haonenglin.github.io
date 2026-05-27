@@ -418,7 +418,6 @@ section h2 {
 .visitor-map-embed canvas,
 .visitor-map-embed img,
 .visitor-map-embed > * {
-  transform: scale(0.5);
   transform-origin: center center;
 }
 
