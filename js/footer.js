@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p class="update-time">Last updated: <span id="update-time"></span></p>
                     </div>
                 </div>
+                <div class="footer-credit-row">
+                    <p class="footer-credit">Thanks to <a href="https://chaofengc.github.io/" target="_blank" rel="noopener">Chaofeng</a> for the website design.</p>
+                </div>
             </div>
         `;
     }
